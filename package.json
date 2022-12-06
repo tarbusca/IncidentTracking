@@ -1,0 +1,23 @@
+{
+  "name": "IRT ERC20 Upgradeable",
+  "version": "1.0.0",
+  "description": "IRT Toen by Mansoob & Tariq",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@openzeppelin/hardhat-upgrades": "^1.16.1",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.2"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.4.1",
+    "@openzeppelin/contracts-upgradeable": "^4.4.1",
+    "chai": "^4.3.7",
+    "ethereum-waffle": "^3.4.4"
+  }
+}

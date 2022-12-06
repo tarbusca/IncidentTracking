@@ -1,0 +1,25 @@
+0x9426eE2ED34F7c2ADe9347Bc34Df561C0f9a6859    //proxy
+0xf70e7eedadf15d9af5882e3b4732fa8ba0c20f80  //implementation
+0x861c50a54302b9babe523ede6137c4c746ed54b3  //proxy admin
+// Goerli Ethereum Network
+
+ABI =
+[{"inputs":[{"internalType":"address","name":"_logic","type":"address"},{"internalType":"address","name":"admin_","type":"address"},{"internalType":"bytes","name":"_data","type":"bytes"}],"stateMutability":"payable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"address","name":"previousAdmin","type":"address"},{"indexed":false,"internalType":"address","name":"newAdmin","type":"address"}],"name":"AdminChanged","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"beacon","type":"address"}],"name":"BeaconUpgraded","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"implementation","type":"address"}],"name":"Upgraded","type":"event"},{"stateMutability":"payable","type":"fallback"},{"inputs":[],"name":"admin","outputs":[{"internalType":"address","name":"admin_","type":"address"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newAdmin","type":"address"}],"name":"changeAdmin","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"implementation","outputs":[{"internalType":"address","name":"implementation_","type":"address"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newImplementation","type":"address"}],"name":"upgradeTo","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newImplementation","type":"address"},{"internalType":"bytes","name":"data","type":"bytes"}],"name":"upgradeToAndCall","outputs":[],"stateMutability":"payable","type":"function"},{"stateMutability":"payable","type":"receive"}]
+
+
+
+ERC721 - Upgradeable
+Proxy          : 0x9a6CdDb170B90fd01F25cd805Ff9F8D8DAEB9089
+implementation : 0x04f90f3dc058887b4130d820dab72ac894f5ca0b
+
+ERC20 - Upgradeable
+Proxy          :0x9426eE2ED34F7c2ADe9347Bc34Df561C0f9a6859
+implementation :0xf70e7eedadf15d9af5882e3b4732fa8ba0c20f80  
+==========================================================================
+Polygon Mumbai
+==========================================================================
+
+ERC20 contract deployed to: 0x298Acd0A7d8c91e0f71b3b2A29EA8A7fe02c351A
+implementation Contract : 0x8470f5A51CF96fe4A43Ac622A6d9Aeb992513052     - not verified yet
+Proxy Contract : 0xC8391962d27941Cfb2FC14DD19a7267299888588
+
