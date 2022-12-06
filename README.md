@@ -1,15 +1,5 @@
-# Basic Sample Hardhat Project
+# Sample OZ Upgradeable ERC20 Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project uses hardhat and OpenZepplin to deploy an ERC20 Transparent Upgradeable Contract. This will be used for development of mobile app.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+The file Contract Address contains the addresses of Implementation and Proxy Contracts on Ethereum Goerli and Polygon Mumbai testents.
